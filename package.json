@@ -1,0 +1,21 @@
+{
+  "name": "graphql-modules-apollo-4",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node dist/server.js"
+  },
+  "author": "Lewis Greenway-Jones",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "4.3.0",
+    "graphql": "16.6.0",
+    "graphql-modules": "2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4",
+    "@tsconfig/node18-strictest": "1.0.0"
+  },
+  "volta": {
+    "node": "18.12.1"
+  }
+}
